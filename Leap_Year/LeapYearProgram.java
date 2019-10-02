@@ -15,17 +15,17 @@ public class LeapYearProgram {
     public static void main(String args[]) {
  
         //Testing some leap and non leap year using Java library code
-        System.err.println("Is 2000 a leap year ? : " + isLeapYear(2000));
-        System.err.println("Is 2012 a leap year ? : " + isLeapYear(2012));
-        System.err.println("Is 1901 a leap year ? : " + isLeapYear(1901));
-        System.err.println("Is 1900 a leap year ? : " + isLeapYear(1900));
+        System.out.println("Is 2000 a leap year ? : " + isLeapYear(2000));
+        System.out.println("Is 2012 a leap year ? : " + isLeapYear(2012));
+        System.out.println("Is 1901 a leap year ? : " + isLeapYear(1901));
+        System.out.println("Is 1900 a leap year ? : " + isLeapYear(1900));
      
      
         //Checking leap year without using library or API and applying logic
-        System.err.println("Does 2000 a leap year : " + doesLeapYear(2000));
-        System.err.println("Does 2012 a leap year : " + doesLeapYear(2012));
-        System.err.println("Does 1901 a leap year : " + doesLeapYear(1901));
-        System.err.println("Does 1900 a leap year : " + doesLeapYear(1900));
+        System.out.println("Does 2000 a leap year : " + doesLeapYear(2000));
+        System.out.println("Does 2012 a leap year : " + doesLeapYear(2012));
+        System.out.println("Does 1901 a leap year : " + doesLeapYear(1901));
+        System.out.println("Does 1900 a leap year : " + doesLeapYear(1900));
     }  
  
  
